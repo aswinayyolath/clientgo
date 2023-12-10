@@ -190,17 +190,17 @@ In Kubernetes and the client-go library, the `dynamic client` is a feature that 
 
 Here are some key points about the dynamic client in client-go:
 
-### Generic Resource Interaction
+#### Generic Resource Interaction
 
 The dynamic client allows you to work with any Kubernetes resource without having to write specific Go code for each resource type.
 This is particularly useful when dealing with custom resources or situations where you might not have the exact resource definition at compile time.
 
-### Dynamic Resource Discovery
+#### Dynamic Resource Discovery
 
 The dynamic client can dynamically discover and work with resources without needing to have explicit Go struct definitions for those resources.
 It allows you to interact with resources that might not be known at compile time, making it flexible for scenarios where you deal with custom resources or APIs.
 
-### Dynamic Resource CRUD Operations
+#### Dynamic Resource CRUD Operations
 
 With the dynamic client, you can perform CRUD (Create, Read, Update, Delete) operations on resources dynamically, without requiring statically generated client code.
 This is helpful when dealing with resources that are not part of the core Kubernetes API or when working with extensions.
